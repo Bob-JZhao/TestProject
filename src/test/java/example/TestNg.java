@@ -23,7 +23,7 @@ public class TestNg {
 	//		driver.get("http://google.com");  
 		//	String title = driver.getTitle();				 
 		//	AssertJUnit.assertTrue(title.contains("Google")); 
-			System.out.println("test......");
+			System.out.println("test.........");
 			AssertJUnit.assertEquals(true, true);
 			
 			
