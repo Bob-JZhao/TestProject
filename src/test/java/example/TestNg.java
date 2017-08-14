@@ -1,6 +1,8 @@
 package example;
 
- import org.openqa.selenium.WebDriver;
+ import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
