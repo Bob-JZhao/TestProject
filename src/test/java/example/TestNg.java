@@ -28,7 +28,8 @@ public class TestNg {
 		 WebDriver	driver = new ChromeDriver();
 		 
 		driver.get("http://google.com");
-		AssertJUnit.assertEquals(true, true);
+		System.out.println(	driver.getTitle());
+		AssertJUnit.assertEquals(driver.getTitle(), "Google");
 	}
 
 	@Test
